@@ -1,19 +1,22 @@
 {
-  "name": "basic-vue-template-using-parcel",
+  "name": "minimal-vue-parcel-typescript",
   "version": "1.0.0",
-  "description": "I'm still broken",
-  "main": "/public/index.html",
+  "description": "Does not work with codesandbox yet.",
+  "main": "./public/index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "parcel ./public/index.html --open",
+    "build": "parcel build ./public/index.html"
   },
   "dependencies": {
-    "vue": "^2.5.17"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.10.3",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1",
     "@types/jest": "^23.3.9",
-    "@types/node": "^10.12.10"
+    "@types/node": "^10.12.10",
+    "@vue/component-compiler-utils": "^2.3.0",
+    "parcel-bundler": "^1.10.3",
+    "typescript": "^3.2.1",
+    "vue-template-compiler": "^2.5.17"
   },
+  "devDependencies": {},
   "keywords": []
 }
